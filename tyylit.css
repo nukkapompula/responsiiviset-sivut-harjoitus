@@ -43,3 +43,10 @@ section {
 .piilo {
     visibility: hidden;
 }
+
+nav {
+    position: fixed;
+    background-color: rgba(93, 10, 112, 0.306);
+    width: 100%;
+    text-align: center;
+}
