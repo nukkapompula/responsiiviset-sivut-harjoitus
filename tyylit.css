@@ -14,3 +14,7 @@ body {
     background-color: var(--tausta);
     color: var(--teksti);
 }
+
+header {
+    position: fixed;
+}
