@@ -54,6 +54,7 @@ nav table {
 
 nav td {
     width: 1em;
+    border-radius: 6px;
 }
 
 nav td a {
