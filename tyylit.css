@@ -1,7 +1,7 @@
 :root {
     --teksti: #921462;
     --tausta: #e6f97a;
-    --varjo: #af1e0b;
+    --solu: #3477ad;
 }
 
 * {
@@ -29,11 +29,11 @@ section {
 
 .johdanto {
     font-size: 1.8em;
-    padding-top: 22px;
+    padding-top: 10px;
     width: 100%;
     text-align: center;
     line-height: 1.2em;
-    text-shadow: 0px 1px 30px var(--varjo)
+    text-shadow: 0px 1px 49px var(--teksti)
 }
 
 .sisältö td {
@@ -46,18 +46,24 @@ section {
 
 nav table {
     position: fixed;
-    background-color: rgba(226, 226, 226, 0.829);
+    background-color: var(--teksti);
     width: 100%;
     text-align: center;
     border-collapse: collapse;
 }
 
-td {
+nav td {
     width: 1em;
 }
 
-a {
-    color: var(--teksti);
+nav td a {
+    display: block;
+    color: var(--tausta);
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+nav td:hover {
+    background-color: var(--solu);
 }
