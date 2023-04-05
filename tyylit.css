@@ -29,7 +29,7 @@ section {
 
 .johdanto {
     font-size: 1.8em;
-    padding-top: 44px;
+    padding-top: 22px;
     width: 100%;
     text-align: center;
     line-height: 1.2em;
@@ -44,9 +44,20 @@ section {
     visibility: hidden;
 }
 
-nav {
+nav table {
     position: fixed;
-    background-color: rgba(93, 10, 112, 0.306);
+    background-color: rgba(226, 226, 226, 0.829);
     width: 100%;
     text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    width: 1em;
+}
+
+a {
+    color: var(--teksti);
+    text-decoration: none;
+    font-size: 1.1em;
 }
