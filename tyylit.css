@@ -44,27 +44,23 @@ section {
     visibility: hidden;
 }
 
-nav table {
+nav {
+    display: inline-block;
     position: fixed;
-    background-color: var(--teksti);
     width: 100%;
+}
+
+nav a {
     text-align: center;
-    border-collapse: collapse;
-}
-
-nav td {
-    width: 1em;
-    border-radius: 6px;
-}
-
-nav td a {
-    display: block;
-    color: var(--tausta);
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.4em;
     font-weight: bold;
+    color: var(--tausta);
+    background-color: var(--teksti);
+    padding: 7px;
+    border-radius: 21px;
 }
 
-nav td:hover {
+nav a:hover {
     background-color: var(--solu);
 }
