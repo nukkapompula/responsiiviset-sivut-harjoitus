@@ -29,7 +29,6 @@ section {
 
 .johdanto {
     font-size: 1.8em;
-    padding-top: 20px;
     width: 100%;
     text-align: center;
     line-height: 1.2em;
@@ -46,12 +45,11 @@ section {
 
 
 header {
-    position: fixed;
     width: 100%;
 }
 
 nav a {
-    display: inline-block;
+    display: block;
     text-align: center;
     text-decoration: none;
     font-size: 1.4em;
