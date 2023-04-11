@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 770px){
     header, 
     header nav a
      {
@@ -34,7 +34,9 @@
         text-shadow: 0px 1px 31px var(--teksti)
     }
 
-    ul {
+    ul,
+    td 
+     {
         text-align: left;
     }
 }
